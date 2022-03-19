@@ -1,0 +1,9 @@
+BOT_TOKEN 5208804513:AAEd99l36LPCL9hWUI2xNKHAsvXtAPa6T6Q
+CHAT_ID -628529933
+
+curl -X POST \
+     -H 'Content-Type: application/json' \
+     -d '{"chat_id": "-628529933", "text": "This is a test from qa.guru"}' \
+     https://api.telegram.org/bot5208804513:AAEd99l36LPCL9hWUI2xNKHAsvXtAPa6T6Q/sendMessage
+
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-628529933", "text": "This is a test from qa.guru"}' https://api.telegram.org/bot5208804513:AAEd99l36LPCL9hWUI2xNKHAsvXtAPa6T6Q/sendMessage
